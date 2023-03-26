@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Open+Sans:ital@0;1&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 
 body {
 	display: flex;
@@ -50,10 +50,11 @@ form label {
 
 input {
 	width: 300px;
-	background-color: #F9F5EB;
+	background-color: #FFF;
 	border-radius: 4px;
 	border: solid 1px #E4DCCF;
-	font: 300 1rem 'Roboto', sans-serif;
+	font: 400 1rem 'Poppins', sans-serif;
+	margin-bottom: 0 !important;
 }
 
 form * {
@@ -70,7 +71,6 @@ form * {
 .typein {
 	display: flex;
 	flex-direction: column-reverse;
-	margin-bottom: 0;
 	width: fit-content;
 
 }
@@ -82,9 +82,10 @@ form * {
 .hamch {
 	margin-top: 0;
 	color: rgb(2, 12, 9);
-	font: 100 16px 'Roboto', sans-serif;
+	font: 100 italic 14px 'Roboto', sans-serif;
 }
 
 h3 {
 	font: 400 italic 'Open Sans';
+	color: #2c3345;
 }
