@@ -6,7 +6,6 @@ body {
 
 body .orga1 {
 	font-size: 20px;
-	height: fit-content;
 	width: fit-content;
 	/*margin-left:235px;
 margin-top:100px;*/
@@ -22,17 +21,22 @@ margin-top:100px;*/
 }
 
 .p1 {
-
-	font-size: 150%;
+	font-size: 2rem;
 	font-family: arial;
-	text-align: center;
+	text-align: left;
 	max-width: 16ch;
 	vertical-align: top;
 }
 
-#title * {
-	display: inline-block;
+#title {
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
 }
+
+/*#title * {
+	display: inline-block;
+}*/
 
 form label {
 	display: inline-block;
@@ -54,13 +58,14 @@ form * {
 #name-pre {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 
-#name-pre * {
+.typein {
 	display: flex;
 	flex-direction: column-reverse;
-	margin-right: 100px;
 	margin-bottom: 0;
+	width: fit-content;
 
 }
 
@@ -68,7 +73,7 @@ form * {
 	box-sizing: border-box;
 }
 
-#name-pre label {
+.hamch {
 	margin-top: 0;
 	color: rgb(2, 12, 9);
 	font: lighter 16px Roboto;

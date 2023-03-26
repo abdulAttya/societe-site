@@ -17,20 +17,26 @@
 		</div>
 		<div class="navigation">
 			<form>
+				<h3>Name</h3>
 				<div id="name-pre">
-					<div id="name">
-						<label>Nom</label>
+					<div class="typein">
+						<label class="hamch">Nom</label>
 						<input type="text" id="name" required autofocus>
 					</div>
-					<div id="prename">
-						<label>Prenom</label>
+					<div class="typein">
+						<label class="hamch">Prenom</label>
 						<input type="text" id="prename" required>
 					</div>
 				</div>
-				<label for="email">Email</label>
-				<input type="email" id="email"><br>
-				<label for="tel">Numéro De Téléphone</label>
-				<input type="tel" id="tel" required><br>
+				<h3>Email</h3>
+				<div class="typein"><label for="email" class="hamch">example@gmail.com</label>
+					<input type="email" id="email">
+				</div>
+
+				<h3>Phone</h3>
+				<div class="typein"><label for="tel" class="hamch">(+216 ...)</label>
+					<input type="tel" id="tel" required>
+				</div>
 				<div>
 					<h3>what do you choose :</h3>
 					<input type="radio" name="choice" value="land" checked>
