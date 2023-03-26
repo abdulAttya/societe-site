@@ -14,7 +14,7 @@ margin-top:100px;*/
 	border-color: #c7cf00;
 	border-style: solid;
 	border-width: thin;
-	background-color: white;
+	background-color: #FFF;
 }
 
 #pic {
@@ -39,8 +39,11 @@ form label {
 	width: 150px;
 }
 
-form input {
-	width: 200px;
+input {
+	width: auto;
+	background-color: #EEE;
+	border-radius: 4px;
+	border-width: thin;
 }
 
 form * {
@@ -55,7 +58,18 @@ form * {
 
 #name-pre * {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	margin-right: 100px;
+	margin-bottom: 0;
 
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#name-pre label {
+	margin-top: 0;
+	color: rgb(2, 12, 9);
+	font: lighter 16px Roboto;
 }
