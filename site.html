@@ -18,27 +18,39 @@
 		</div>
 		<div class="navigation">
 			<form>
-				<h3>Name</h3>
-				<div id="name-pre">
-					<div class="typein">
-						<label class="hamch">Nom</label>
-						<input type="text" id="name" required autofocus>
+				<div class="input-field">
+					<h3>Name</h3>
+					<div class="input-group">
+						<div class="typein">
+							<label class="hamch">Nom</label>
+							<input type="text" id="name" required autofocus>
+						</div>
+						<div class="typein">
+							<label class="hamch">Prenom</label>
+							<input type="text" id="prename" required>
+						</div>
 					</div>
-					<div class="typein">
-						<label class="hamch">Prenom</label>
-						<input type="text" id="prename" required>
-					</div>
-				</div>
-				<h3>Email</h3>
-				<div class="typein"><label for="email" class="hamch">example@gmail.com</label>
-					<input type="email" id="email">
 				</div>
 
-				<h3>Phone</h3>
-				<div class="typein"><label for="tel" class="hamch">(+216 ...)</label>
-					<input type="tel" id="tel" required>
+				<div class="input-group">
+					<div class="input-field">
+						<h3>Email</h3>
+						<div class="typein"><label for="email" class="hamch">example@gmail.com</label>
+							<input type="email" id="email">
+						</div>
+					</div>
+					<div class="input-field">
+						<h3>Phone</h3>
+						<div class="typein"><label for="tel" class="hamch">(+216 ...)</label>
+							<input type="tel" id="tel" required>
+						</div>
+					</div>
 				</div>
-				<div>
+
+
+
+
+				<div class="input-field" id="radios">
 					<h3>what do you choose :</h3>
 					<input type="radio" name="choice" value="land" checked>
 					<label>land</label>
