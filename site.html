@@ -53,12 +53,33 @@
 
 
 
-				<div class="input-field" id="radios">
+				<div class="input-group" id="radios">
 					<h3>what do you choose :</h3>
-					<input type="radio" name="choice" value="land" checked>
-					<label>land</label>
-					<input type="radio" name="choice" value="house">
-					<label>house</label>
+					<div class="input-field">
+
+
+						<div class="card-container">
+							<div class="card">
+								<div class="front-face"><input type="radio" name="choice" value="land" id="land"
+										class="choice"></div>
+								<div class="back-face">details</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="input-field">
+
+						<div class="card-container">
+							<div class="card">
+								<div class="front-face">
+									<input type="radio" name="choice" value="house" id="house" class="choice">
+								</div>
+								<div class="back-face">details</div>
+							</div>
+						</div>
+
+					</div>
+
 				</div>
                                 <div class="submit">
 				        <input type="submit" name="submit" value="Envoyer">
