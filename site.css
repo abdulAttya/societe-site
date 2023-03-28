@@ -173,6 +173,12 @@ input[type="submit"] {
 	height: 400px;
 }
 
+.card {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
 .input-field {
 	display: flex;
 	flex-direction: column;
