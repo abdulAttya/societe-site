@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
-
 body {
 	display: flex;
 	justify-content: center;
@@ -7,7 +6,7 @@ body {
 }
 
 body .orga1 {
-	font-size: 20px;
+	font-size: 40px;
 	width: 1000px;
 	border-radius: 10px;
 	background-color: #FFF;
@@ -183,3 +182,4 @@ input[type="submit"] {
 #radio-field {
 	margin-top: 100px;
 }
+
