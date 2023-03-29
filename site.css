@@ -144,9 +144,7 @@ input[type="submit"] {
 	text-align: center;
 }
 
-#email-tel {
-	column-gap: 100px;
-}
+
 
 #ligne {
 	color: #2F58CD;
@@ -170,7 +168,9 @@ input[type="submit"] {
 }
 
 
-
+#email-tel {
+	margin-top: 100px;
+}
 
 
 .card-container {
