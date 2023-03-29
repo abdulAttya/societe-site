@@ -12,7 +12,6 @@ body {
 	display: flex;
 	justify-content: center;
 	background-color: #2F58CD;
-	scroll-behavior: smooth;
 }
 
 body .orga1 {
@@ -93,6 +92,7 @@ form {
 
 }
 
+
 .typein {
 	display: flex;
 	flex-direction: column-reverse;
@@ -142,10 +142,6 @@ input[type="submit"]:hover {
 input[type="submit"] {
 	border-radius: 50px;
 	text-align: center;
-}
-
-#email-tel {
-	column-gap: 100px;
 }
 
 #ligne {
