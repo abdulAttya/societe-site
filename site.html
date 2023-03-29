@@ -5,6 +5,8 @@
 	<title>La Société Tunisienne De Vente Immobilière</title>
 	<link rel="stylesheet" type="text/css" href="site.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -25,7 +27,7 @@
 			<form>
 				<div class="input-field">
 					<h3 class="input-title">Nom complet</h3>
-					<div class="input-group">
+					<div class="input-group" id="name-pre">
 						<div class="typein">
 							<label class="hamch">Prénom</label>
 							<input type="text" id="name" required autofocus>
@@ -55,40 +57,47 @@
 
 
 
-				<div class="input-group" id="radio-field">
-					<h3>what do you choose :</h3>
-					<div class="input-field">
+				<div class="input-field">
+					<h3>Êtes-vous intéressé par acheter</h3>
+					<div class="input-group" id="radio-field">
+						<div class="typein">
+							<div class="card-container">
+								<div class="card" id="land-container">
+									<div class="front-face glass"><input type="radio" name="choice" value="land"
+											id="land" class="choice"><label for="land" class="rad-card">
+											<p id="land">Land</p>
 
-
-						<div class="card-container">
-							<div class="card">
-								<div class="front-face"><input type="radio" name="choice" value="land" id="land"
-										class="choice"><label for="land">Land</label>
+										</label>
+									</div>
+									<div class="back-face">details</div>
 								</div>
-								<div class="back-face">details</div>
 							</div>
+
 						</div>
 
-					</div>
-					<div class="input-field" id="radios">
+						<div class="typein" id="radios">
 
 
-						<div class="card-container">
-							<div class="card">
-								<div class="front-face">
-									<input type="radio" name="choice" value="house" id="house" class="choice">
-									<label for="house">House</label>
+							<div class="card-container">
+								<div class="card glass" id="house-container">
+									<div class="front-face">
+										<input type="radio" name="choice" value="house" id="house" class="choice">
+										<label for="house" class="rad-card ">
+											<p c>House
+											</p>
+
+										</label>
+									</div>
+									<div class="back-face">details</div>
 								</div>
-								<div class="back-face">details</div>
 							</div>
+
+
 						</div>
-
 					</div>
-
-				</div>
-				<div class="submit">
-					<input type="submit" name="submit" value="Envoyer">
-				</div>
+					<div class="submit">
+						<input type="submit" name="submit" value="Envoyer">
+					</div>
 			</form>
 		</div>
 	</div>
