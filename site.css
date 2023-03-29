@@ -3,7 +3,8 @@
 body {
 	display: flex;
 	justify-content: center;
-	background-color: #2F58CD;
+	background-color: #1f242d;
+	scroll-behavior: smooth;
 }
 
 body .orga1 {
