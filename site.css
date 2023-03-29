@@ -36,7 +36,7 @@ body .orga1 {
 }
 
 #soc-name {
-	font: 700 2rem 'Montserrat';
+	font: 700 1.8rem 'Montserrat';
 	text-align: left;
 }
 
@@ -53,7 +53,7 @@ body .orga1 {
 
 #title {
 	display: flex;
-	width: 800px;
+	width: 100%;
 }
 
 /*#title * {
