@@ -41,7 +41,7 @@ body .orga1 {
 }
 
 #description {
-	font: 300 19px 'Montserrat';
+	font: 700 19px 'Montserrat';
 }
 
 .p {
@@ -170,6 +170,10 @@ input[type="submit"] {
 
 #email-tel {
 	margin-top: 100px;
+
+
+
+
 }
 
 
