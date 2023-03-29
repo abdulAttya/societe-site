@@ -192,7 +192,7 @@ input[type="submit"] {
 	width: 100%;
 	transform-style: preserve-3d;
 	border-radius: 20px;
-	transition: transform 1s ease-in-out, scale 1s ease-out, shadow 1.5s ease-out;
+	transition: transform 1s ease-in-out, scale 1s cubic-bezier(0.215, 0.610, 0.355, 1), shadow 1.5s ease-out;
 	scale: 1;
 
 }
