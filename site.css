@@ -33,6 +33,7 @@ body .orga1 {
 	position: relative;
 	left: 50px;
 	top: 50px;
+	flex-shrink: 0;
 }
 
 #soc-name {
