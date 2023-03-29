@@ -203,7 +203,7 @@ input[type="submit"] {
 }
 
 .card:hover {
-	scale: 1.02;
+	scale: 1.1;
 	box-shadow: 1px 9px 34px 4px rgba(0, 0, 0, 0.20);
 }
 
