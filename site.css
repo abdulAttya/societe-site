@@ -49,9 +49,9 @@ body .orga1 {
 #title {
 	display: flex;
 	width: 100%;
-	height: 10%;
+	height: 15%;
 	column-gap: 50px;
-	align-items: flex-end;
+	align-items: center;
 	flex-flow: row nowrap;
 }
 
