@@ -24,7 +24,7 @@ body .orga1 {
 }
 
 #pic {
-	width: 400px;
+	flex-basis: 400px;
 	background: url('pics/1.jpg') no-repeat;
 	mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 100%);
 	-webkit-mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 100%);
