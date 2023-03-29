@@ -23,16 +23,16 @@ body .orga1 {
 }
 
 #pic {
-	width: calc(30% - 50px);
-	flex-basis: 100px;
+	height: 90%;
 	flex-shrink: 2;
-	flex-grow: 1;
+	flex-grow: 0;
 }
 
 .p {
 	flex-shrink: 1;
-	flex-grow: 2;
-	width: calc(60% -50px);
+	flex-grow: 1;
+	width: calc(10vw -50px);
+	flex-basis: auto;
 }
 
 #soc-name {
@@ -54,7 +54,7 @@ body .orga1 {
 	height: 10%;
 	column-gap: 50px;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 }
 
 /*#title * {
