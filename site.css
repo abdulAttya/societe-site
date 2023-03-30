@@ -24,36 +24,28 @@ body .orga1 {
 
 #pic {
 	margin: 20px 0 0 20px;
-	max-height: 100vh;
-	height: 50vh;
-	flex-shrink: 2;
-	flex-grow: 2;
+	width: 40%;
 	object-fit: contain;
 }
 
 .p {
-	flex-shrink: 1;
-	flex-grow: 5;
-	flex-basis: 250px;
+	flex-basis: calc(60% - 2rem);
 }
 
 #soc-name {
-	font: 700 1.8rem 'Montserrat';
+	font: 700 1em 'Montserrat';
 	text-align: left;
 }
 
 #description {
-	font: 700 19px 'Montserrat';
+	font: 700 0.5em 'Montserrat';
 }
 
-.p {
-	align-self: center;
-}
+
 
 #title {
 	display: flex;
-	width: 100%;
-	column-gap: 50px;
+	column-gap: 4vw;
 	align-items: center;
 	flex-flow: row nowrap;
 }
