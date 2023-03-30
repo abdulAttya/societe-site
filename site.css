@@ -237,7 +237,7 @@ input[type="submit"] {
 }
 
 #radio-field {
-	column-gap: 10%;
+	gap: 2em 4em;
 	justify-content: center;
 }
 
