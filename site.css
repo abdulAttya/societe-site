@@ -52,7 +52,6 @@ body {
 	column-gap: 4vw;
 	align-items: center;
 	flex-flow: row nowrap;
-	height: 30%;
 }
 
 /*#title * {
