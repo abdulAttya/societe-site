@@ -38,6 +38,8 @@ body .orga1 {
 #soc-name {
 	font: 700 1.8rem 'Montserrat';
 	text-align: left;
+	
+
 }
 
 #description {
@@ -274,3 +276,4 @@ input[type="submit"] {
 	background-position: bottom;
 	background-size: cover;
 }
+
