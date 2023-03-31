@@ -7,30 +7,34 @@ body {
 #navbar {
     display: flex;
     align-items: center;
-    position:fixed;
+    position: fixed;
     background-color: red;
-    
+    width: 100%;
+
 }
 
 .mini-list a,
 #logo a {
     text-decoration: none;
-    word-wrap: none;
 }
 
 #logo {
     width: 20vw;
 }
 
-#logo::before {
+#logo a::after {
     display: block;
     content: "";
     position: relative;
-    bottom: 10px;
-    left: 10px;
-    width: 100%;
+    bottom: 0;
+    width: 0%;
     height: 10px;
+    transition: width .5s ease-out;
     background-color: #0d1252;
+}
+
+#logo a:hover::after {
+    width: 100%;
 }
 
 .list {
@@ -40,7 +44,8 @@ body {
     width: calc(100% - 20vw);
     list-style: none;
 }
-#logo a{
+
+#logo a {
     text-decoration: none;
 }
 
@@ -49,5 +54,5 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    column-gap: 50px;   
+    column-gap: 50px;
 }
