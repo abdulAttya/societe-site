@@ -9,7 +9,8 @@ body {
     align-items: center;
 }
 
-.mini-list a {
+.mini-list a,
+#logo a {
     text-decoration: none;
 }
 
