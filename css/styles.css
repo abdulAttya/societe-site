@@ -1,23 +1,35 @@
 body {
     margin: 0;
     padding: 0;
+    height: 5000px;
 }
 
 #navbar {
     display: flex;
     align-items: center;
+    position:fixed;
+    background-color: red;
+    
 }
 
 .mini-list a {
     text-decoration: none;
 }
 
+#logo {
+    width: 20em;
+}
+
 .list {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 20em);
     list-style: none;
 }
-
+#logo a{
+    text-decoration: none;
+}
 
 
 #links {
@@ -25,5 +37,4 @@ body {
     flex-direction: row;
     list-style: none;
     column-gap: 50px;   
-    justify-content: flex-end;
 }
