@@ -16,7 +16,8 @@ body {
     list-style: none;
     
 }
-div{
+div li{
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
 }
