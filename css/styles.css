@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mini-list{ 
+    list-style: none;
+   
+    
+}
+.list a{
+    text-decoration: none;
+}
+.list{
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
