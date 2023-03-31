@@ -25,3 +25,10 @@ div {
     display: flex;
     flex-direction: row;
 }
+
+#links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 100px;
+}
