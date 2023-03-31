@@ -14,14 +14,14 @@ body {
 }
 
 #logo {
-    width: 20em;
+    width: 20vw;
 }
 
 .list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: calc(100% - 20em);
+    width: calc(100% - 20vw);
     list-style: none;
 }
 
