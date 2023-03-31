@@ -1,18 +1,15 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.mini-list{ 
-    list-style: none;
-   
-    
-}
-.list a{
+.list a {
     text-decoration: none;
 }
-.list{
-    display:flex;
+
+.list {
+    display: flex;
     flex-direction: row;
-    
+    list-style: none;
+
 }
