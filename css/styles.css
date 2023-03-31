@@ -3,12 +3,8 @@ body {
     padding: 0;
 }
 
-.mini-list{ 
-    list-style: none;
-   
-    
-}
-.list a{
+
+.list a {
     text-decoration: none;
 }
 
