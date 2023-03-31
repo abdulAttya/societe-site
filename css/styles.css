@@ -12,9 +12,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content:space-between;
     list-style: none;
     
 }
-#research{
-    margin-left:500px;
+div{
+    display:flex;
+    flex-direction:row;
 }
