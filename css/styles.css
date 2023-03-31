@@ -9,6 +9,7 @@ body {
     align-items: center;
     position:fixed;
     background-color: red;
+    width:100%;
     
 }
 
@@ -39,3 +40,7 @@ body {
     list-style: none;
     column-gap: 50px;   
 }
+
+#research[
+   
+]
