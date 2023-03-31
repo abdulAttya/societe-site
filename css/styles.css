@@ -2,24 +2,32 @@ body {
     margin: 0;
     padding: 0;
     height: 5000px;
+    font-size: 1.5vw;
+
 }
 
 #navbar {
     display: flex;
     align-items: center;
     position: fixed;
-    background-color: red;
-    width: 100%;
+    background-color: rgb(233, 233, 233);
+    width: 100vw;
+    white-space: nowrap;
 
 }
 
 .mini-list a,
 #logo a {
     text-decoration: none;
+
+    padding: 4px;
+    font: 400 1em 'Open Sans';
+    color: #0d1252;
 }
 
 #logo {
     width: 20vw;
+    height: 5vh;
     text-align: center;
 }
 
@@ -27,37 +35,44 @@ body {
     display: block;
     content: "";
     position: relative;
-    bottom: 0;
+    float: left;
+    bottom: -1vh;
     left: 0;
     width: 100%;
-    height: 10px;
+    height: 1vh;
     transform: scaleX(0);
     transition: transform .5s ease-out;
     transform-origin: left;
     background-color: #0d1252;
-    margin-left: 5%;
+    margin-left: 20%;
 }
 
 #logo a:hover::after {
-    transform: scaleX(90%);
+    transform: scaleX(60%);
 }
 
 .list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: calc(100% - 20vw);
+    width: 80vw;
     list-style: none;
 }
 
-#logo a {
-    text-decoration: none;
-}
 
+#research {
+    width: 40vw;
+}
 
 #links {
     display: flex;
     flex-direction: row;
     list-style: none;
-    column-gap: 50px;
+    column-gap: 5vw;
+
+}
+
+#links li {
+    border: solid #343342 2px;
+    border-radius: 4px;
 }
