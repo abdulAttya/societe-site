@@ -4,28 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Societe industruelle</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav id="navbar">
-        <div id="logo"><a href="#">nom de societé</a></div>
-        <ul class="list">
-            <li>
-                <form>
-                    <input type="search" placeholder="chercher........." id="research">
-                </form>
-            </li>
-            <li>
-                <ul id="links">
-                    <li class="mini-list"><a href="#">Contact</a></li>
-                    <li class="mini-list"><a href="#">Affaires légales</a></li>
-                </ul>
+    <div class="alert alert-primary" role="alert">
+        vous pouvez nous rejoindre maintenant !
+    </div>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#" class="important navbar-brand">nom de societé</a>
+        <div class="collapse navbar-collapse row justify-content-evenly" id="navbarSupportedContent">
 
-            </li>
-        </ul>
+
+            <form class="form-inline  mx-xl-5 w-50">
+                <input class="form-control" type="search" placeholder="chercher........." id="research">
+            </form>
+            <ul class="navbar-nav ml-auto row justify-content-between">
+
+                <li class="nav-item">
+                    <a href="#" class="btn btn-light nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn btn-light nav-link">Affaires légales</a>
+                </li>
+
+
+
+            </ul>
+        </div>
     </nav>
 </body>
 
