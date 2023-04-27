@@ -33,6 +33,11 @@ body {
     height: 50px;
     color:white;
 }
+.link-info{
+    color:white;
+    font-family: arial;
+    font-weight: bold;
+}
 
 
 div[role="alert"] {
