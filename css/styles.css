@@ -144,7 +144,6 @@ div[role="alert"] {
 }
 .navbar-nav .nav-item {
     padding: .2rem .3rem;
-    border-radius: .25rem;
     transition: transform .2s ease-in-out;
 }
 .navbar-nav .nav-item a{
@@ -155,7 +154,6 @@ div[role="alert"] {
     color: var(--brown);
 }
 .navbar .navbar-nav .nav-item:hover {
-    background-color: var(--light);
     transform: scale(1.1);
 }
 
