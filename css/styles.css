@@ -62,14 +62,14 @@ div[role="alert"] {
     mix-blend-mode: hard-light;
     z-index: 4;
 }
-.commercial a{
+#commercial a{
     text-decoration: none;
     padding:10px;
     background-color:#ff7a1a;
     border-radius: 80px;
     color:white;
 }
-.commercial a:hover{
+#commercial a:hover{
     border-color:#ff7a1a;
     border-style:solid ;
     background-color:white;
