@@ -162,7 +162,6 @@ div[role="alert"] {
 .slider {
     padding-top: var(--padding-top);
     margin: auto 3%;
-
     overflow: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
@@ -202,4 +201,5 @@ div[role="alert"] {
     object-fit: contain;
     height: min(100vh - var(--padding-top),1000px);
     width: calc(100vw - 20px);
+    
 }
