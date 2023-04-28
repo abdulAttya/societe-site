@@ -58,7 +58,7 @@ div[role="alert"] {
     position: sticky;
     top:0;
     backdrop-filter: blur(100px);
-    background-color: #0d1252;
+    background-color: var(--light);
     mix-blend-mode: hard-light;
     z-index: 4;
 }
