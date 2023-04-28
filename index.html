@@ -19,7 +19,9 @@
         <label>vous pouvez nous rejoindre maintenant <a href="#" class="link-info">notre
                 projet</a>!
         </label>
-        <input type="button" class="btn-close" aria-label="Close"></input>
+        <input type="button" class="btn-close" aria-label="Close" onclick="this.parentElement.style.display='none';"
+            value="&times;">
+
 
     </div>
     <nav class="navbar">
@@ -29,7 +31,10 @@
 
 
         <!-- <label for="search-bar" class="input-label"></label>-->
-        <input id="search-bar" class="input-bar" type="search" placeholder="chercher" id="research">
+        <div class="search-container important">
+            <input id="search-bar" class="input-bar" type="search" placeholder="chercher" id="research">
+
+        </div>
 
         <ul class="navbar-nav">
 
