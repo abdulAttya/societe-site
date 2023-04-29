@@ -165,7 +165,7 @@ div[role="alert"] {
 
 .slider {
     padding-top: var(--padding-top);
-    margin: auto 1%;
+    margin: auto 0;
 
     overflow: scroll;
     scroll-behavior: smooth;
@@ -203,8 +203,8 @@ div[role="alert"] {
 
 .slide-container img {
     object-fit: contain;
-    height: min(50vw + 20rem - var(--padding-top),70rem);
-    max-width: calc(100vw - 1.5rem);
+    max-height: min(50vw + 20rem - var(--padding-top),70rem);
+    width: min(100%,100vw);
 }
 
 @media screen and (max-width: 640px){
