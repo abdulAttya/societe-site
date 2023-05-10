@@ -1,20 +1,17 @@
 
 :root {
-    --padding-top:3rem;
+    --padding-top:60px;
     --image-count:3;
+    scroll-padding-top: var(--padding-top);
     --light:hsl(266, 30%, 74%);
-    --main:hsl(280, 97%, 51%);
+    --dark:hsl(280, 97%, 51%);
     --line:hsl(260, 75%, 6%);
     --darker-line:hsl(236, 73%, 19%);
     --brown:hsl(225, 34%, 51%);
     --text :hsl(242, 78%, 78%);
-    --alt:hsl(265, 97%, 51%);
-    --pd-c:.25rem;
-    --fs-btn: clamp(.5rem,1vw + .4rem,2rem);
-    --fs-t:clamp(1rem, .5rem + 1.2vw,5rem);
 }
 body {
-    min-height: 200vh;
+    height: 5000px;
     font-size: 1.5em;
     margin: 0;
     padding: 0;
@@ -29,12 +26,12 @@ body {
     background-color: #4facd1;
     display: flex;
     justify-content: space-between;
-    justify-content: center;
+    height: 6vh;
     align-items: center;
+    justify-content: center;
     font-family:arial;
-    font-size: var(--fs-t);
-    height: max(3rem,1rem + 2vw);
-    padding:clamp(1rem,1vw + 1rem,2.5rem) ;
+    font-size: 20px;
+    height: 50px;
     color:white;
 }
 .link-info{
@@ -63,6 +60,21 @@ div[role="alert"] {
     backdrop-filter: blur(100px);
     background-color: var(--light);
     mix-blend-mode: hard-light;
+    z-index: 4;
+}
+#commercial a{
+    text-decoration: none;
+    padding:10px;
+    background-color:#ff7a1a;
+    border-radius: 80px;
+    color:white;
+}
+#commercial a:hover{
+    border-color:#ff7a1a;
+    border-style:solid ;
+    background-color:white;
+    color:#ff7a1a;
+    transition-duration:0.2s;
 }
 
 .brand-icon{
@@ -80,7 +92,7 @@ div[role="alert"] {
     /*bottom: -1vh;*/
     left: 0;
     width: 100%;
-    height: .25rem;
+    height: 4px;
     transform: scaleX(0);
     transition: transform .3s ease-out;
     transform-origin: 0%;
@@ -108,49 +120,41 @@ div[role="alert"] {
     border: 0;
     outline: 0;
  }
+
+.input-bar:focus + .input-label::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 2px;
+    background-color: #0c041c;
+    border-bottom: 2px solid var(--line);
+}
 .navbar-nav {
     display: flex;
-    gap: .8em;
-    align-items: center;
+    gap: 10px;
+    
     margin:0 3%;
     padding: 0;
     text-indent: 0;
     list-style: none;
 }
-.navbar-nav .nav-link {
-
-    padding: .2rem .3rem;
-    transition: all .2s ease-in-out;
-}
 .navbar-nav .nav-item {
-    font-size: var(--fs-btn);
-    text-decoration: none;
-    color: var(--alt);
+    padding: .2rem .3rem;
+    transition: transform .2s ease-in-out;
 }
-.navbar-nav .nav-item:focus{
+.navbar-nav .nav-item a{
+    text-decoration: none;
+    color: var(--dark);
+}
+.navbar-nav .nav-item a:focus{
     color: var(--brown);
 }
 .navbar .navbar-nav .nav-item:hover {
-    --alt:hsl(207, 100%, 37%);
-}
-
-.commercial {
-    width: 100%;
-}
-.commercial {
-    --main: #ff7a1a;
-    --alt:#fff;
-    padding:.8rem;
-    background-color:var(--main);
-    border-radius: 4rem;
-    color:var(--alt);
-    transition: all cubic-bezier(0.6, 0.04, 0.98, 0.335) 200ms;
-}
-
-.commercial a:hover{
-    border: solid var(--main);
-    background-color:var(--alt);
-    color:var(--main);
+    transform: scale(1.1);
 }
 
 #dark-switcher {
@@ -165,24 +169,25 @@ div[role="alert"] {
 }*/
 
 .slider {
+    position: relative;
     padding-top: var(--padding-top);
-    margin: auto 0;
-
+    margin: auto 3%;
     overflow: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     overscroll-behavior-x: contain;
     
+    
 }
 .slider::-webkit-scrollbar {
     display: none;
   }
-/* .slider-controller {
+.slider-controller {
     position: absolute;
     float: right;
     bottom: max(10px,1vh);
     left: 50%;
-} */
+}
 .wrapper {
     width: calc(100% * var(--image-count));
     display: grid;
@@ -191,7 +196,7 @@ div[role="alert"] {
 }
 
 .wrapper .slide-container {
-    scroll-margin: 0;
+    scroll-margin: 0px;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
     user-select: none;
@@ -204,17 +209,7 @@ div[role="alert"] {
 
 .slide-container img {
     object-fit: contain;
-    max-height: min(50vw + 20rem - var(--padding-top),70rem);
-    width: min(100%,100vw);
-}
-
-@media screen and (max-width: 640px){
-    .btn-s-cls{
-        display: none;
-    }
-}
-@media screen and (max-width:300px){
-    .btn-xs-cls {
-        display: none;
-    }
+    height: min(100vh - var(--padding-top),1000px);
+    width: calc(100vw - 20px);
+    
 }
