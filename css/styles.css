@@ -29,6 +29,7 @@ body {
     background-color: #4facd1;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-family:arial;
     font-size: var(--fs-t);
