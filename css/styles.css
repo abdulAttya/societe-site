@@ -53,7 +53,7 @@
     position: relative;
     width: var(--slider-width);
     height: min(80svh,var(--slider-width)/1.5);
-   
+    margin: 1rem auto;
     overflow: hidden;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
